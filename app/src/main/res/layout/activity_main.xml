@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/loading_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:src="@drawable/logo"/>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/Viewpager_startup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_startup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="Do you have time for a chat?"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="Register"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/Orange"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:id="@+id/register"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:text="Have an account?"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:onClick="have_an_account"/>
+
+
+
+
+</LinearLayout>

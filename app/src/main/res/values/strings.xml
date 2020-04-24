@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Never Mind-The Time</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Authorization_key">APA91bH7zvfvDysZe2kp3YmzLU5XdKSYeJ5JqmBWqVjw7RxvK8pA3u_WbR0uOTGA_0VCgTVnniRJrvu4o-9UQmHVYo-dtxkYE6FTW7OvItSWWyFGdtV-GLJ64ct544Y5MecvW6_DPzCG</string>
+</resources>

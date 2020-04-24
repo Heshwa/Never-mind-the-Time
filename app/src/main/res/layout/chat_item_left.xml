@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_marginLeft="5dp"
+        android:text="Hello"
+        android:padding="8dp"
+        android:id="@+id/show_message"
+        android:textSize="20dp"
+        android:background="@drawable/background_left"
+        android:fontFamily="cursive"
+        android:textColor="@color/White"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_seen"
+        android:layout_below="@id/show_message"
+        android:visibility="gone"
+        android:textColor="@color/White"/>
+
+</RelativeLayout>
